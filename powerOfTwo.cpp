@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 void powerOf2(int num)
 {
     int count=0;

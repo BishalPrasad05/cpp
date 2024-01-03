@@ -5,7 +5,7 @@ using namespace std;
 void swapArray(int arr[],int size){
     int start=0,end=size-1;
     int temp=0;
-    while(start<end)
+    while(start<=end)
     {
         temp=arr[start];
         arr[start]=arr[end];

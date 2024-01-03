@@ -14,6 +14,7 @@ void powerOf2(int num)
     count==1?cout<<"The number is power of 2\n":cout<<"The number is not a power of two \n";
 }
 
+
 int main(){
     powerOf2(32);
     

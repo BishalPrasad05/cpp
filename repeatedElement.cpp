@@ -17,12 +17,12 @@ int main(){
         result1^=arr[i];
     }
     int n=0;
-   long double t;
+   double t;
     while(n<100000000)
         n++;
     cout<<"The repeated element is :"<<(result1^result2)<<endl;
     endTime=clock();
     t=endTime-startTime;
-    cout<<"The time is :"<<(t)<<setprecision(20)<< endl;
+    cout<<"The time is :"<<(t)<<setprecision(10)<< endl;
     return 0;
 }

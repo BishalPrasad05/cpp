@@ -2,7 +2,6 @@
 #include<limits.h>
 using namespace std;
 
-
 int main(){
     int arr[10]={21,32,54,6,7,4,0,234,26,65};
     int max=INT_MIN;

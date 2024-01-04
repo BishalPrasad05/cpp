@@ -17,17 +17,11 @@ void swapAlternatives(int arr[], int size)
 }
 
 int main(){
-    // int arr[7]={1,2,3,4,5,6,7};
-    // swapAlternatives(arr,7);
-    // for(int i=0;i<7;i++){
-    //     cout<<arr[i]<<" ";
-    // }
-
-    short int i=1;
-    while([1,0]){
-        cout<<i<<endl;
-        i++;
+    int arr[7]={1,2,3,4,5,6,7};
+    swapAlternatives(arr,7);
+    for(int i=0;i<7;i++){
+        cout<<arr[i]<<" ";
     }
-    cout<<"while ended"<<endl;
+    cout<<endl;
     return 0;
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     time_t startTime,endTime;
-    time(&startTime);
+    startTime=clock();
     int N=6;
     int arr[N]={1,2,3,4,5,5};
     int result1=0,result2=0;
@@ -17,10 +17,12 @@ int main(){
         result1^=arr[i];
     }
     int n=0;
-    while(n<100000)
+   long double t;
+    while(n<100000000)
         n++;
     cout<<"The repeated element is :"<<(result1^result2)<<endl;
-    time(&endTime);
-    cout<<"The time is :"<<(endTime-startTime)<<setprecision(10)<< endl;
+    endTime=clock();
+    t=endTime-startTime;
+    cout<<"The time is :"<<(t)<<setprecision(20)<< endl;
     return 0;
 }

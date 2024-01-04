@@ -24,10 +24,10 @@ int main(){
     // }
 
     short int i=1;
-    while(i){
+    while([1,0]){
         cout<<i<<endl;
         i++;
     }
-    cout<<endl;
+    cout<<"while ended"<<endl;
     return 0;
 }

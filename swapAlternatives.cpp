@@ -23,7 +23,7 @@ int main(){
     //     cout<<arr[i]<<" ";
     // }
 
-    int i=1;
+    short int i=1;
     while(i){
         cout<<i<<endl;
         i++;

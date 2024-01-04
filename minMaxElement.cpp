@@ -4,6 +4,7 @@ using namespace std;
 
 
 void minMax(int arr[]){
+    int arr2[]=arr;
      int max=INT_MIN;
     int min=INT_MAX;
     for(int a:arr){

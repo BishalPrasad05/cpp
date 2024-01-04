@@ -1,5 +1,5 @@
 #include <iostream>
-#include<ctime>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -16,6 +16,9 @@ int main(){
         }
         result1^=arr[i];
     }
+    int n=0;
+    while(n<100000)
+        n++;
     cout<<"The repeated element is :"<<(result1^result2)<<endl;
     time(&endTime);
     cout<<"The time is :"<<(endTime-startTime)<<setprecision(10)<< endl;

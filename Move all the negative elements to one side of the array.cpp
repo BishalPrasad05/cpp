@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void oneSide(int arr[],int size)
+int* oneSide(int arr[],int size)
 {
     int newarr[size];
     int start=0,end=size-1;
@@ -19,18 +19,19 @@ void oneSide(int arr[],int size)
         }
        
     }
-    for(int i:newarr)
-        cout<<i<<" ";
-    // return newarr;
+    // for(int i:newarr)
+    //     cout<<i<<" ";
+    int* pt=newarr;
+    return pt;
 }
 
 int main(){
 
     int arr[8]={5,453,34,-1,6,-3,58,-2};
-    oneSide(arr,8);
-    // for(int i:s)
-    //     cout<<i<<" ";
-    // cout<<s<<endl;
+    int* s=oneSide(arr,8);
+    for(int i:s)
+        cout<<i<<" ";
+    cout<<endl;
 
     
     return 0;

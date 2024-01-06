@@ -8,10 +8,11 @@ using namespace std;
 int main(){
     vector<int> arr={45,23,45,2,6,34,78,678};
     // int n=sizeof(arr)/sizeof(arr[0]);
-    sort(arr.begin(),arr.end());
-    for (int i:arr){
+    // sort(arr.begin(),arr.end());
+    set<int> s(arr.begin(),arr.end());
+    for (int i:s){
         cout<<i<<" ";
     }
-    cout<<endl;
+    cout<<s.capacity()<<endl;
     return 0;
 }

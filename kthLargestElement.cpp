@@ -2,6 +2,7 @@
 #include<algorithm>
 #include<vector>
 #include<set>
+#include<queue>
 
 using namespace std;
 
@@ -17,7 +18,11 @@ int KthLargestElement_NlogN(int arr[],int k)
     return *it;
 }
 
-
+void KthLargestElement_NlogK(int arr[],int k)
+{
+    priority_queue<int> pq;
+    cout<<sizeof(arr))<<endl;
+}
 
 
 
@@ -33,6 +38,7 @@ int main(){
     // auto it=next(s.begin(),3);
 
     
-    cout<<KthLargestElement(arr,3)<<endl;
+    // cout<<KthLargestElement_NlogK(arr,3)<<endl;
+    KthLargestElement_NlogK(arr,3);
     return 0;
 }

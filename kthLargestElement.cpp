@@ -21,7 +21,7 @@ int KthLargestElement_NlogN(int arr[],int k)
 void KthLargestElement_NlogK(int arr[],int k)
 {
     priority_queue<int> pq;
-    cout<<sizeof(arr))<<endl;
+    cout<<sizeof(arr)<<endl;
 }
 
 

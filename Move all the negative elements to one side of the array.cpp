@@ -29,8 +29,8 @@ int main(){
 
     int arr[8]={5,453,34,-1,6,-3,58,-2};
     int* s=oneSide(arr,8);
-    for(int i:s)
-        cout<<i<<" ";
+    for(int i=0;i<8;i++)
+        cout<<s[i]<<" ";
     cout<<endl;
 
     

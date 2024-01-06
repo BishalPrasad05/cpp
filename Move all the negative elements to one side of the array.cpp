@@ -23,6 +23,21 @@ void oneSide(int arr[],int newarr[],int size)
     //     cout<<i<<" ";
 }
 
+
+void oneSide2(int arr[])
+{
+    int start=0,end=7;
+    while(start<end)
+    {
+        if(arr[start]>arr[end])
+        {
+            swap(arr[start],arr[end])
+            
+        }
+
+    }
+}
+
 int main(){
 
     int arr[8]={5,453,34,-1,6,-3,58,-2};

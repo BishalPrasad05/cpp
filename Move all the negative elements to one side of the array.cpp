@@ -29,10 +29,12 @@ void oneSide2(int arr[])
     int start=0,end=7;
     while(start<end)
     {
-        if(arr[start]>arr[end])
+        if(arr[start]<0)
         {
-            swap(arr[start],arr[end])
-            
+            if(arr[end]>arr[start])
+            {
+                
+            }
         }
 
     }

@@ -5,20 +5,19 @@ using namespace std;
 void oneSide(int arr[],int size)
 {
     int newarr[size];
-    size=size-1;
     int start=0,end=size-1;
-    while(size>0)
+    for(int i=0;i<size;i++)
     {
-        if(arr[size]>0)
+        if(arr[i]>0)
         {
             newarr[end]=arr[size];
             end--;
         }
         else{
-            newarr[start]=arr[size];
+            newarr[i]=arr[size];
             start++;
         }
-        size--;
+       
     }
     for(int i:newarr)
         cout<<i<<" ";

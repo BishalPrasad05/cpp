@@ -29,23 +29,9 @@ void oneSide2(int arr[])
     int start=0,end=7;
     while(start<end)
     {
-        if(arr[start]<0)
+        if(arr[start]>0)
         {
-            start++;
-        }
-        else if{
-            if(arr[end]>0)
-            {
-                end--;
-            }
-        }
-        else{
-            if(arr[start]<arr[end])
-                {
-                    swap(arr[start],arr[end])
-                }
-            if()
-
+            
         }
 
     }

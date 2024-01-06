@@ -8,9 +8,9 @@ using namespace std;
 
 int KthLargestElement(int arr[],int k)
 {
-    set<int> n(arr.begin(),arr.end());
+    set<int> n(arr,arr+7);
     auto it=n.begin();
-    advance(it,k);
+    advance(it,k-1);
     // Or
     // auto it=next(n.begin(),k);
     return *it;

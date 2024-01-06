@@ -31,8 +31,11 @@ void oneSide2(int arr[])
     {
         if(arr[start]>0)
         {
-            
+            swap(arr[start],arr[end]);
+            end--;
+            continue;
         }
+        start++;
 
     }
 }
@@ -40,12 +43,15 @@ void oneSide2(int arr[])
 int main(){
 
     int arr[8]={5,453,34,-1,6,-3,58,-2};
-    int newarr[8];
-    oneSide(arr,newarr,8);
-    for(int i=0;i<8;i++)
-        cout<<newarr[i]<<" ";
-    cout<<endl;
+    // int newarr[8];
+    // oneSide(arr,newarr,8);
+    // for(int i=0;i<8;i++)
+    //     cout<<newarr[i]<<" ";
+    // cout<<endl;
 
-    
+    oneSide2(arr);
+    for(int i:arr)
+     cout<<i<<" ";
+    cout<<endl;
     return 0;
 }

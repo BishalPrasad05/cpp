@@ -18,6 +18,9 @@ int KthLargestElement_NlogN(int arr[],int k)
     return *it;
 }
 
+
+// The below code is having the time complexity NlogK
+
 int KthLargestElement_NlogK(int arr[],int k)
 {
     priority_queue<int> pq;

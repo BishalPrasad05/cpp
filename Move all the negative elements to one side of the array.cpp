@@ -6,7 +6,7 @@ int* oneSide(int arr[],int size)
 {
     int newarr[size];
     int start=0,end=size-1;
-    while(size>0)
+    while(size>=0)
     {
         if(arr[size]>0)
         {

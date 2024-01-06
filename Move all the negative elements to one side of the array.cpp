@@ -31,11 +31,21 @@ void oneSide2(int arr[])
     {
         if(arr[start]<0)
         {
-            if(arr[end]>arr[start])
+            start++;
+        }
+        else if{
+            if(arr[end]>0)
             {
-                start++;   
+                end--;
             }
-            
+        }
+        else{
+            if(arr[start]<arr[end])
+                {
+                    swap(arr[start],arr[end])
+                }
+            if()
+
         }
 
     }

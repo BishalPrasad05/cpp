@@ -10,11 +10,11 @@ void oneSide(int arr[],int size)
     {
         if(arr[i]>0)
         {
-            newarr[end]=arr[size];
+            newarr[end]=arr[i];
             end--;
         }
         else{
-            newarr[i]=arr[size];
+            newarr[start]=arr[i];
             start++;
         }
        

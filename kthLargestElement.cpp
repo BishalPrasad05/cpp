@@ -13,7 +13,9 @@ int main(){
     for (int i:s){
         cout<<i<<" ";
     }
+    auto it=next(s.begin(),3);
+
     
-    cout<<s[2]<<endl;
+    cout<<*it<<endl;
     return 0;
 }

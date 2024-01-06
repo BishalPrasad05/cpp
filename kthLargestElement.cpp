@@ -18,13 +18,16 @@ int KthLargestElement_NlogN(int arr[],int k)
     return *it;
 }
 
-void KthLargestElement_NlogK(int arr[],int k)
+int KthLargestElement_NlogK(int arr[],int k)
 {
     priority_queue<int> pq;
     int size=sizeof(arr);
     for(int i=0;i<size;i++){
-        
+        pq.push(arr[i]);
+        if(pq.size()>k)
+            pq.pop();
     }
+    return pq.top();
 }
 
 
@@ -41,7 +44,7 @@ int main(){
     // auto it=next(s.begin(),3);
 
     
-    // cout<<KthLargestElement_NlogK(arr,3)<<endl;
-    KthLargestElement_NlogK(arr,3);
+    cout<<KthLargestElement_NlogK(arr,3)<<endl;
+    cout<<KthLargestElement_NlogK(arr,3)<<endl;
     return 0;
 }

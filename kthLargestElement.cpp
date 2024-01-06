@@ -5,8 +5,9 @@
 
 using namespace std;
 
-
-int KthLargestElement(int arr[],int k)
+// The time complexity of the below code is O(N*LogN)
+ 
+int KthLargestElement_NlogN(int arr[],int k)
 {
     set<int> n(arr,arr+7);
     auto it=n.begin();
@@ -15,6 +16,10 @@ int KthLargestElement(int arr[],int k)
     // auto it=next(n.begin(),k);
     return *it;
 }
+
+
+
+
 
 int main(){
     int arr[8]={45,23,45,2,6,34,78,678};

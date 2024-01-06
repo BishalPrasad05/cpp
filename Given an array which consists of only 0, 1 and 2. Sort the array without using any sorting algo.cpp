@@ -17,8 +17,8 @@ void sortingTheArray(int arr[])
         i++;         
     }
     for(int i=0;i<zero;i++) arr[i]=0;
-    for(int i=zero;i<one;i++) arr[i]=1;
-    for(int i=one;i<two;i++) arr[i]=2;
+    for(int i=zero;i<one+zero;i++) arr[i]=1;
+    for(int i=one+zero;i<two;i++) arr[i]=2;
     cout<<size<<endl;
 }
 

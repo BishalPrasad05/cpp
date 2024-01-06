@@ -33,8 +33,9 @@ void oneSide2(int arr[])
         {
             if(arr[end]>arr[start])
             {
-                
+                start++;   
             }
+            
         }
 
     }

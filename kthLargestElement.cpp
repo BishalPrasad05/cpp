@@ -13,6 +13,7 @@ int main(){
     for (int i:s){
         cout<<i<<" ";
     }
-    cout<<s.capacity()<<endl;
+    
+    cout<<s[2]<<endl;
     return 0;
 }

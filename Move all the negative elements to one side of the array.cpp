@@ -28,7 +28,7 @@ int main(){
     int* s=oneSide(arr,8);
     for(int i:s)
         cout<<i<<" ";
-    cout<<endl;
+    cout<<s<<endl;
 
     
     return 0;

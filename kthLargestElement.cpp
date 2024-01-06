@@ -6,6 +6,11 @@ using namespace std;
 
 int main(){
     vector<int> arr={45,23,45,2,6,34,78,678};
-    sort(arr,arr.begin()+7);
+    // int n=sizeof(arr)/sizeof(arr[0]);
+    sort(arr.begin(),arr.end());
+    for(auto i,arr){
+        cout<<i<<" ";
+    }
+    cout<<endl;
     return 0;
 }

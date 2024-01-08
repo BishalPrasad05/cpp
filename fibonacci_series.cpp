@@ -3,6 +3,18 @@
 using namespace std;
 
 
+void fibo(int first,int second,int k)
+{
+    if(k==0)
+        return;
+    else{
+        cout<<first<<" ";
+        fibo(second,first+second,k-1);
+    }
+    cout<<endl;
+}
+
+
 void fibonacci(int ran){
     int first=0;
     int second=1;
@@ -28,5 +40,8 @@ int main(){
     cin>>range;
     
     fibonacci(range);
+    
+    cout<<"Using recursion\n";
+    fibo(0,1,range);
     return 0;
 }

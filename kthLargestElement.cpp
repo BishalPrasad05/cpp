@@ -37,11 +37,12 @@ int kthMinElement(int arr[],int k)
 {
     set<int> s(arr,arr+8);
 
-    set<int>::iterator it=s.end();
+    set<int>::iterator it=s.begin();
     cout<<"end ="<<*it<<endl;
-    while(k=0)
+    while(k!=0)
     {
-        it--;
+        cout<<"v ="<<*it<<endl;
+        it++;
         k--;
     }
     return *it;

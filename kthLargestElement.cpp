@@ -33,10 +33,18 @@ int KthLargestElement_NlogK(int arr[],int k)
     return pq.top();
 }
 
-int kthMinElement(int arr[])
+int kthMinElement(int arr[],int k)
 {
-    set<int> s(arr);
-    
+    set<int> s(arr,arr+8);
+
+    set<int>::iterator it=s.end();
+    while(k==0)
+    {
+        it--;
+        k--;
+    }
+    return *it;
+
 }
 
 
@@ -55,5 +63,6 @@ int main(){
     
     cout<<KthLargestElement_NlogK(arr,3)<<endl;
     cout<<KthLargestElement_NlogK(arr,3)<<endl;
+    cout<<"Kth min element :"<<kthMinElement(arr,1)<<endl;
     return 0;
 }

@@ -33,6 +33,12 @@ int KthLargestElement_NlogK(int arr[],int k)
     return pq.top();
 }
 
+int kthMinElement(int arr[])
+{
+    set<int> s(arr);
+    
+}
+
 
 
 int main(){

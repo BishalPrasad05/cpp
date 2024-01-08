@@ -41,7 +41,7 @@ int kthMinElement(int arr[],int k)
     // cout<<"end ="<<*it<<endl;
     while(k!=0)
     {
-        cout<<"v ="<<*it<<endl;
+        // cout<<"v ="<<*it<<endl;
         it++;
         k--;
     }
@@ -65,6 +65,6 @@ int main(){
     
     cout<<KthLargestElement_NlogK(arr,3)<<endl;
     cout<<KthLargestElement_NlogK(arr,3)<<endl;
-    cout<<"Kth min element :"<<kthMinElement(arr,2)<<endl;
+    cout<<"Kth min element :"<<kthMinElement(arr,2-1)<<endl;
     return 0;
 }

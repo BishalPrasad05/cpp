@@ -21,7 +21,7 @@ void rotate(int arr[],int k){
 
 int main(){
     int arr[8]={1,2,3,4,5,6,7,8};
-    rotate(arr,4);
+    rotate(arr,5);
 
     return 0;
 }

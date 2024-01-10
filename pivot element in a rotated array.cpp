@@ -19,8 +19,8 @@ int pivot(int arr[])
 }
 
 int main(){
-    int arr[8]={7,8,1,2,3,4,5,6};
-    cout<<pivot(arr)<<endl;
+    int arr[8]={6,7,8,1,2,3,4,5};
+    cout<<"Pivot element is at index :"<<pivot(arr)<<endl;
     
     return 0;
 }

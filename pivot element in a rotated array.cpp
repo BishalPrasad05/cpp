@@ -9,7 +9,7 @@ int pivot(int arr[])
     while(start<end)
     {
         if(arr[mid]>=arr[0])
-            start=end+1;
+            start=mid+1;
         else
             end=mid;
         mid=(start+end)/2;

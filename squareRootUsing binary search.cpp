@@ -5,7 +5,7 @@ using namespace std;
 
 int squareRoot(int num)
 {
-    mid
+    int mid=
 }
 
 int main(){

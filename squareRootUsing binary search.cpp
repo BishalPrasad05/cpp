@@ -5,7 +5,6 @@ using namespace std;
 
 int squareRoot(int num,int start,int end,int mid)
 {
-    ind mid=
     if()
 }
 

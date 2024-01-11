@@ -9,7 +9,7 @@ int squareRoot(int num,int start,int end,int mid)
         return mid;
     }
     if(start>end)
-     return mid;
+        return mid;
 }
 
 int main(){

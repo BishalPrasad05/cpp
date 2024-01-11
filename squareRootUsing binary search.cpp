@@ -3,8 +3,9 @@
 
 using namespace std;
 
-int squareRoot(int num,int mid)
+int squareRoot(int num,int start,int end)
 {
+    if()
 }
 
 int main(){

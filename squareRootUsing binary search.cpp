@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int squareRoot(int num,int start,int end,long long int mid)
+long long int squareRoot(int num,int start,int end,long long int mid)
 {
     mid=mid/2;
     if(mid*mid==num){

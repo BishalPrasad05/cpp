@@ -8,6 +8,8 @@ int squareRoot(int num,int start,int end,int mid)
     if(mid*mid==num){
         return mid;
     }
+    if(start>end)
+     return mid;
 }
 
 int main(){

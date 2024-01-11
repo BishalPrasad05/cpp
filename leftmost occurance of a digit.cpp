@@ -23,7 +23,7 @@ int leftmost(int arr[],int start,int end,int ans,int key)
 
 int main(){
     int arr[10]={1,2,3,4,5,6,7,8,9,10};
-    int val=leftmost(arr,0,5,-1,9);
+    int val=leftmost(arr,0,5,-1,7);
     cout<<"value ="<<val<<endl;
     return 0;
 }

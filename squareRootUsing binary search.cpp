@@ -22,7 +22,7 @@ long long int squareRoot(int num,int start,int end,long long int mid)
 }
 
 int main(){
-    int num=36;
+    int num=81;
     long long int val=squareRoot(num,1,num-1,-1);
     cout<<"The value= "<<val<<endl;
     

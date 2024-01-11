@@ -3,7 +3,10 @@
 
 using namespace std;
 
-
+int squareRoot(int num)
+{
+    
+}
 
 int main(){
     

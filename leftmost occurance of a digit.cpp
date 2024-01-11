@@ -12,7 +12,10 @@ int leftmost(int arr[],int start,int end,int ans,int key)
         ans=mid;
         end=mid-1;
     }
-    else
+    else{
+        if(arr[mid]<=key)
+            leftmost(arr,start,end)
+    }
 }
 
 int main(){

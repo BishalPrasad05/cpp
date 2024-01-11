@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int squareRoot(int num)
+int squareRoot(int num,int mid)
 {
     int mid=
 }

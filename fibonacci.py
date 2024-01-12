@@ -18,4 +18,4 @@ while (True):
     print("File Removed")
     print(i,end="\n")
     i+=1
-    time.sleep(4)
+    time.sleep(11)

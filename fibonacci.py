@@ -9,13 +9,13 @@
 import os,time
 i=0
 while (True):
-    file=open("test.txt","w")
+    file=open("test/test.txt","w")
     file.write(f"Hello World {i}")
     file.close()
 
     time.sleep(35)
-    os.remove("test.txt")
-    print("File Removed")
+    # os.remove("test.txt")
+    # print("File Removed")
     print(i,end="\n")
     i+=1
     # time.sleep(30)

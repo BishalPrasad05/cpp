@@ -13,9 +13,9 @@ while (True):
     file.write(f"Hello World {i}")
     file.close()
 
-    time.sleep(11)
+    time.sleep(15)
     os.remove("test.txt")
     print("File Removed")
     print(i,end="\n")
     i+=1
-    time.sleep(11)
+    time.sleep(30)

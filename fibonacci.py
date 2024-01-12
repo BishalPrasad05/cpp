@@ -6,6 +6,15 @@
 #         fibo(second,first+second,k-1)
 
 # fibo(0,1,10)
-import os
+import os,time
+i=0
+while (True):
+    file=open("test.txt","w")
+    file.write("Hello World")
+    file.close()
 
-os.crea
+    time.sleep(11)
+    os.remove("test.txt")
+    print("File Removed")
+    print(i,end="\n")
+    i+=1

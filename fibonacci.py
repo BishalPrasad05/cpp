@@ -9,7 +9,7 @@
 import os,time
 i=0
 while (True):
-    file=open("test/test.txt","w")
+    file=open(f"test/test{i}.txt","w")
     file.write(f"Hello World {i}")
     file.close()
 

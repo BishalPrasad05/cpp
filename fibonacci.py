@@ -6,3 +6,6 @@
 #         fibo(second,first+second,k-1)
 
 # fibo(0,1,10)
+import os
+
+os.crea

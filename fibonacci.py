@@ -10,9 +10,17 @@ import os,time
 i=0
 while (True):
     file=open(f"new.c","w")
-    file.write(f"#include<stdio.h>\nint main()\n{{\n\tprintf(\"Hello World\");\n\treturn 0;\n}})")
+    file.write(f"#include<stdio.h>\n")
+    file.write("\n")
+    file.write(f"int main()\n")
+
     time.sleep(5)
-    file.write(f"\n#include<stdio.h>\nint main()\n{{\n\tprintf(\"Hello World\");\n\treturn 0;\n}})")
+    file.write("{\n")
+    file.write("\tprintf(\"Hello World\");\n")
+    file.write("\treturn 0;\n")
+    file.write("}")
+    
+    # file.write(f"\n#include<stdio.h>\nint main()\n{{\n\tprintf(\"Hello World\");\n\treturn 0;\n}})")
     file.close()
 
     time.sleep(15)

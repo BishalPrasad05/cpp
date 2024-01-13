@@ -11,19 +11,24 @@ i=0
 while (True):
     file=open(f"new.c","w")
     file.write(f"#include<stdio.h>\n")
+    time.sleep(2)
+    file.write(f"#include<conio.h>\n")
     file.write("\n")
+    time.sleep(2)
     file.write(f"int main()\n")
-
     time.sleep(5)
     file.write("{\n")
-    file.write("\tprintf(\"Hello World\");\n")
+    time.sleep(2)
+    file.write(f"\tprintf(\"Hello World{i}\");\n")
+    time.sleep(2)
     file.write("\treturn 0;\n")
+    time.sleep(2)
     file.write("}")
-    
+
     # file.write(f"\n#include<stdio.h>\nint main()\n{{\n\tprintf(\"Hello World\");\n\treturn 0;\n}})")
     file.close()
 
-    time.sleep(15)
+    time.sleep(11)
     # os.remove("test.txt")
     # print("File Removed")
     print(i,end="\n")

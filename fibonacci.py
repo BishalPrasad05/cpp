@@ -28,7 +28,7 @@ while (True):
     # file.write(f"\n#include<stdio.h>\nint main()\n{{\n\tprintf(\"Hello World\");\n\treturn 0;\n}})")
     file.close()
 
-    time.sleep(11)
+    time.sleep(30)
     # os.remove("test.txt")
     # print("File Removed")
     print(i,end="\n")

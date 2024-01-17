@@ -24,7 +24,10 @@ int main(){
     while(start<end)
     {
         int mid=(start+end)/2;
-        for(int i=0;i<)
+        for(int i=0;i<4;i++)
+        {
+            
+        }
     }
     
     

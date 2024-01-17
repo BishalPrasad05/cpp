@@ -92,8 +92,8 @@ int main(){
     {
         // int k=1;
         int mid=(start+end)/2;
-        int val=isFeasible(arr,student,mid);
-        cout<<"is feasible :"<<val<<endl;
+        // int val=isFeasible(arr,student,mid);
+        // cout<<"is feasible :"<<val<<endl;
         if(isPossible(arr,student,mid))
         {
             ans=mid;

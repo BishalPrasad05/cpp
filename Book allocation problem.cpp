@@ -110,7 +110,7 @@ int main(){
         if (isPossible(arr,student, mid)) {
             // update result to current distribution
             // as it's the best we have found till now.
-            result = mid;
+            ans = mid;
  
             // as we are finding minimum and books
             // are sorted so reduce end = mid -1

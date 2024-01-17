@@ -8,8 +8,8 @@ int main(){
     while(start<=end)
     {
         mid=(start+end)/2;
-        page=0;
-        count=1;
+        int page=0;
+        int count=1;
         for(int i=0;i<4;i++)
         {
             page+=arr[i];

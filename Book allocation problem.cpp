@@ -41,11 +41,13 @@ using namespace std;
 int main(){
     int start=90,end=203;
     int arr[4]={12,34,67,90};
+    int ans=0;
     while(start<=end)
     {
         int mid=(start+end)/2;
         if(isFeasible){
-            
+            ans=mid;
+            start=
         }
     }
     return 0;

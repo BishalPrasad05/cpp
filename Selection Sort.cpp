@@ -28,9 +28,11 @@ int main(){
         for(j;j<5;j++)
         {
             if(arr[j]>arr[i])
-             temp=j;
+             temp=arr[j];
         }
-        swap(arr[i],arr[j]);
+        arr[i]=temp;
+        
+        
         
     }
 

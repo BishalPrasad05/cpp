@@ -19,7 +19,7 @@ int main(){
                 page=arr[i];
             }
         }
-        if(count<=3)
+        if(count<=2)
         {
             ans=mid;
             end=mid-1;

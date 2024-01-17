@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 
-void selectionSort(int arr1[],int size)
+void selectionSort(int arr[])
 {
     for(int i=0;i<5-1;i++)
     {

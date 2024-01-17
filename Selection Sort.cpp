@@ -23,6 +23,19 @@ int main(){
     cout<<"The sorted array"<<endl;
     for(int i=0;i<5;i++)
     {
+        int j=i;
+        for(j;j<size;j++)
+        {
+            if(arr[j]>arr[i])
+             temp=j;
+        }
+        swap(arr[i],arr[j]);
+        
+    }
+
+
+    for(int i=0;i<5;i++)
+    {
         cout<<arr[i]<<" ";
     }
     return 0;

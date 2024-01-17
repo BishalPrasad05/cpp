@@ -46,9 +46,13 @@ bool isFeasible(int arr[],int mid)
     for(int i=0;i<4;i++)
     {
         sum+=arr[i];
-        if(sum>)
+        if(sum>mid){
+            count++;
+            sum=arr[i];
+        }
 
     }
+    if(sum>)
 }
 
 

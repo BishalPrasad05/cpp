@@ -34,11 +34,11 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
 
     }
 
-    // int res=k<=student;
+    int res=k<=student;
 
     // cout<<"res = "<<res<<endl;
 
-    return k<=student;
+    return res;
 
 }
 

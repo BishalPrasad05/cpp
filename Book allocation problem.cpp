@@ -53,5 +53,6 @@ int main(){
             start=mid+1;
         }
     }
+    cout<<"The answer is "
     return 0;
 }

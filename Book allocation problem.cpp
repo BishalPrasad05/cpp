@@ -44,10 +44,10 @@ int isFeasible(int arr[],int student,int mid)
 
 
 int main(){
-    int arr[4]={10,10,20,30};
+    int arr[4]={12,34,67,90};
     int minMaxArr[2]={0,0};
     minMax(arr,minMaxArr);
-    int start=30,end=70;
+    int start=90,end=203;
     cout<<start<<" "<<end<<endl;
     int ans=0;
     int student=2;

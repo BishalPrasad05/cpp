@@ -66,7 +66,8 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        int value=isFeasible(arr,mid)
+        int value=isFeasible(arr,mid);
+        cout<<"The value is :"<<value<<endl;
         if(isFeasible(arr,mid)){
             ans=mid;
             end=mid-1;

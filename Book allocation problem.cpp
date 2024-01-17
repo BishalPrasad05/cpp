@@ -16,7 +16,7 @@ bool isFeasible(int arr[],int mid)
         }
 
     }
-    if(count<=2)
+    if(count<=4)
         return true;
     return false;
 }

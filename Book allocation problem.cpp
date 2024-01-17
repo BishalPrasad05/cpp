@@ -34,7 +34,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
 
     }
 
-    return k
+    return k<=student;
 
 }
 
@@ -50,10 +50,9 @@ int main(){
     {
         int k=1;
         int mid=(start+end)/2;
-        for(int i=0;i<4;i++)
+        if(isFeasible)
         {
             
-
         }
     }
     

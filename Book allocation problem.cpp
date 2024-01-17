@@ -47,7 +47,10 @@ int main(){
         int mid=(start+end)/2;
         if(isFeasible){
             ans=mid;
-            start=mid
+            end=mid-1;
+        }
+        else{
+            start=mid+1;
         }
     }
     return 0;

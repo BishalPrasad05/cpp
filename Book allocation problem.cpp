@@ -24,7 +24,7 @@ bool isFeasible(int arr[],int mid)
 
 
 int main(){
-    int start=30,end=2;
+    int start=30,end=87;
     int arr[5]={19,9,30,22,7};
     int ans=0;
     while(start<=end)

@@ -66,7 +66,19 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        if(isFeasible){
+        int count=0;
+    int sum=0;
+    for(int i=0;i<4;i++)
+    {
+        sum+=arr[i];
+        if(sum>mid){
+            count++;
+            sum=arr[i];
+        }
+
+    }
+    if(sum<=2)
+        {
             ans=mid;
             end=mid-1;
         }

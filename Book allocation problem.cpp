@@ -15,7 +15,10 @@ void minMax(int arr[],int minMaxArr[]){
     }
 }
 
-
+bool isFeasible(int arr[],int start,int end,int student)
+{
+    
+}
 
 
 int main(){

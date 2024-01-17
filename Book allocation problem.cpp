@@ -15,7 +15,7 @@ void minMax(int arr[],int minMaxArr[]){
     }
 }
 
-bool isFeasible(int arr[],int start,int end,int student)
+bool isFeasible(int arr[],int start,int end,int student,int mid)
 {
     int size=sizeof(arr);
     int k=1;
@@ -23,9 +23,18 @@ bool isFeasible(int arr[],int start,int end,int student)
     for(int i=0 ;i<size;i++)
     {
         ans+=arr[i];
-        if(ans>)
+        if(ans>mid)
+        {
+            ans=arr[i];
+            k++;
+        }
+        else{
+            ans+=arr[i];
+        }
 
     }
+
+    return k
 
 }
 

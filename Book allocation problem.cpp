@@ -54,7 +54,9 @@ int main(){
     {
         // int k=1;
         int mid=(start+end)/2;
-        if(isFeasible(arr,start,end,student,mid))
+        int val=isFeasible(arr,start,end,student,mid);
+        cout<<"is feasible :"<<val<<endl;
+        if(val)
         {
             ans=mid;
             end=mid-1;

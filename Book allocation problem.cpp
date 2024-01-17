@@ -15,7 +15,7 @@ void minMax(int arr[],int minMaxArr[]){
     }
 }
 
-bool isFeasible(int arr[],int start,int end,int student,int mid)
+bool isFeasible(int arr[],int student,int mid)
 {
     int size=sizeof(arr);
     int k=1;
@@ -55,7 +55,7 @@ int main(){
     {
         // int k=1;
         int mid=(start+end)/2;
-        int val=isFeasible(arr,start,end,student,mid);
+        int val=isFeasible(arr,student,mid);
         cout<<"is feasible :"<<val<<endl;
         if(val)
         {

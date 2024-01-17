@@ -20,7 +20,7 @@ void selectionSort(int arr[],int size)
 int main(){
     int arr[5]={5,4,3,2,1};
     // selectionSort(arr,5);
-    cout<<"The sorted array"<<endl;
+    
     for(int i=0;i<5-1;i++)
     {
         int temp=i;
@@ -32,7 +32,7 @@ int main(){
         swap(arr[temp],arr[i]); 
     }
 
-
+    cout<<"The sorted array"<<endl;
     for(int i=0;i<5;i++)
     {
         cout<<arr[i]<<" ";

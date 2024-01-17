@@ -6,8 +6,8 @@ void selectionSort(int arr[],int size)
 {
     int temp=0;
     for(int i=0;i<size-1;i++){
-        // int j=i;
-        for(int j=i;j<size;j++)
+        int j=i;
+        for(j;j<size;j++)
         {
             if(arr[j]<arr[i])
              temp=j;

@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int start=90,end=203,mid,ans;
-    int arr[4]={};
+    int arr[4]={12,34,67,90};
     while(start<=end)
     {
         mid=(start+end)/2;

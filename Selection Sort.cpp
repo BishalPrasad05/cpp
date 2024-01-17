@@ -18,9 +18,7 @@ void selectionSort(int arr[],int size)
 }
 
 int main(){
-    int arr[5]={5,4,3,2,1};
-    // selectionSort(arr,5);
-    
+    int arr[5]={50,4,23,555,3};    
     for(int i=0;i<5-1;i++)
     {
         int temp=i;
@@ -37,5 +35,6 @@ int main(){
     {
         cout<<arr[i]<<" ";
     }
+    cout<<endl;
     return 0;
 }

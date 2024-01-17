@@ -30,7 +30,10 @@ int main(){
         for(int i=0;i<4;i++)
         {
             ans+=arr[i];
-            if(ans>mid)
+            if(ans>=mid){
+                ans=arr[i];
+                
+            }
 
         }
     }

@@ -22,7 +22,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
     int ans=0;
     for(int i=0 ;i<size;i++)
     {
-        ans+=arr[i];
+        // ans+=arr[i];
         if(ans>mid)
         {
             ans=arr[i];

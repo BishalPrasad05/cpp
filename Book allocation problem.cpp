@@ -52,9 +52,15 @@ int main(){
         int mid=(start+end)/2;
         if(isFeasible)
         {
-            
+            ans=mid;
+            end=mid-1;
+        }
+        else{
+            start=mid+1;
         }
     }
+
+    cout<<"The value is :"<<ans<<endl;
     
     
     return 0;

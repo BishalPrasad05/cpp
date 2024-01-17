@@ -17,7 +17,7 @@ void minMax(int arr[],int minMaxArr[]){
 
 bool isFeasible(int arr[],int start,int end,int student)
 {
-    
+
 }
 
 
@@ -34,12 +34,7 @@ int main(){
         int mid=(start+end)/2;
         for(int i=0;i<4;i++)
         {
-            ans+=arr[i];
-            if(ans>=mid){
-                ans=arr[i];
-                k++;
-
-            }
+            
 
         }
     }

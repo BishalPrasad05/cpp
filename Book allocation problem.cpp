@@ -19,9 +19,11 @@ bool isFeasible(int arr[],int start,int end,int student)
 {
     int size=sizeof(arr);
     int k=1;
-    
+    int ans=0;
     for(int i=0 ;i<size;i++)
     {
+        ans+=arr[i];
+        if(ans>)
 
     }
 

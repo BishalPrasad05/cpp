@@ -50,7 +50,7 @@ int main(){
     {
         int k=1;
         int mid=(start+end)/2;
-        if(isFeasible)
+        if(isFeasible(arr,start,end,student,mid))
         {
             ans=mid;
             end=mid-1;

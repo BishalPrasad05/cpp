@@ -88,20 +88,40 @@ int main(){
     cout<<start<<" "<<end<<endl;
     int ans=0;
     int student=2;
-    while(start<end)
-    {
-        // int k=1;
-        int mid=(start+end)/2;
-        // int val=isFeasible(arr,student,mid);
-        // cout<<"is feasible :"<<val<<endl;
-        if(isPossible(arr,student,mid))
-        {
-            ans=mid;
-            end=mid-1;
+    // while(start<end)
+    // {
+    //     // int k=1;
+    //     int mid=(start+end)/2;
+    //     // int val=isFeasible(arr,student,mid);
+    //     // cout<<"is feasible :"<<val<<endl;
+    //     if(isPossible(arr,student,mid))
+    //     {
+    //         ans=mid;
+    //         end=mid-1;
+    //     }
+    //     else{
+    //         start=mid+1;
+    //     }
+    // }
+     while (start <= end) {
+        // check if it is possible to distribute
+        // books by using mid as current minimum
+        int mid = (start + end) / 2;
+        if (isPossible(arr,student, mid)) {
+            // update result to current distribution
+            // as it's the best we have found till now.
+            result = mid;
+ 
+            // as we are finding minimum and books
+            // are sorted so reduce end = mid -1
+            // that means
+            end = mid - 1;
         }
-        else{
-            start=mid+1;
-        }
+ 
+        else
+            // if not possible means pages should be
+            // increased so update start = mid + 1
+            start = mid + 1;
     }
 
     cout<<"The value is :"<<ans<<endl;

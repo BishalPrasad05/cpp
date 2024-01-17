@@ -9,7 +9,7 @@ void selectionSort(int arr1[],int size)
         int j=i;
         for(j;j<size;j++)
         {
-            if(arr[j]>arr[i])
+            if(arr[j]<arr[i])
              temp=j;
         }
         swap(arr[i],arr[j]);

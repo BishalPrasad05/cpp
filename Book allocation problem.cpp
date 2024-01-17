@@ -32,6 +32,7 @@ int main(){
             ans+=arr[i];
             if(ans>=mid){
                 ans=arr[i];
+                k++;
                 
             }
 

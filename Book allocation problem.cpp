@@ -47,7 +47,7 @@ int main(){
     int arr[4]={10,10,20,30};
     int minMaxArr[2]={0,0};
     minMax(arr,minMaxArr);
-    int start=minMaxArr[0],end=minMaxArr[1];
+    int start=30,end=70;
     cout<<start<<" "<<end<<endl;
     int ans=0;
     int student=2;

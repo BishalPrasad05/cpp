@@ -48,9 +48,10 @@ bool isPossible(int arr[],int m, int curr_min)
 {
 	int studentsRequired = 1;
 	int curr_sum = 0;
+    int size=sizeof arr / sizeof arr[0];
 
 	// iterate over all books
-	for (int i = 0; i < sizeof(arr); i++) {
+	for (int i = 0; i < size; i++) {
 		// check if current number of pages are greater
 		// than curr_min that means we will get the result
 		// after mid no. of pages

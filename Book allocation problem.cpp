@@ -17,8 +17,12 @@ void minMax(int arr[],int minMaxArr[]){
 
 bool isFeasible(int arr[],int start,int end,int student)
 {
-    while(start<end){
-        
+    int size=sizeof(arr);
+    int k=1;
+    
+    for(int i=0 ;i<size;i++)
+    {
+
     }
 
 }

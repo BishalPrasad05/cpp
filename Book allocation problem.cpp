@@ -48,6 +48,7 @@ int main(){
     int minMaxArr[2]={0};
     minMax(arr,minMaxArr);
     int start=minMaxArr[0],end=minMaxArr[1];
+    cout<<start<<" "<<end<<endl;
     int ans=0;
     int student=2;
     while(start<end)

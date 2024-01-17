@@ -21,5 +21,6 @@ int main(){
     int minMaxArr[2]={0};
     minMax(arr,minMaxArr);
     
+    
     return 0;
 }

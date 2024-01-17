@@ -44,7 +44,9 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        
+        if(isFeasible){
+            
+        }
     }
     return 0;
 }

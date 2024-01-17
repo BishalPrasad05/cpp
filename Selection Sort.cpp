@@ -30,8 +30,8 @@ int main(){
             if(arr[j]>arr[i])
              temp=arr[j];
         }
-        arr[i]=temp;
-        
+        arr[j]=temp;
+
         
         
     }

@@ -40,5 +40,6 @@ using namespace std;
 
 int main(){
     int start=90,end=;
+    int arr[4]=
     return 0;
 }

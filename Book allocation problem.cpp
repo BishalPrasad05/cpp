@@ -52,7 +52,7 @@ bool isFeasible(int arr[],int mid)
         }
 
     }
-    if(sum>=2)
+    if(sum<=2)
         return true;
     return false;
 }

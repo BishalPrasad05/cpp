@@ -18,7 +18,8 @@ void selectionSort(int arr[])
 }
 
 int main(){
-    int arr[5]={50,4,23,555,3};    
+    int arr[5]={50,4,23,555,3};   
+    selectionSort(arr); 
     // for(int i=0;i<5-1;i++)
     // {
     //     int temp=i;

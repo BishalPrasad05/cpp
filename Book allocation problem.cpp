@@ -16,6 +16,8 @@ void minMax(int arr[],int minMaxArr[]){
 }
 
 
+
+
 int main(){
     int arr[]={10,10,20,30};
     int minMaxArr[2]={0};
@@ -33,7 +35,7 @@ int main(){
             if(ans>=mid){
                 ans=arr[i];
                 k++;
-                
+
             }
 
         }

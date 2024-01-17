@@ -24,7 +24,8 @@ int main(){
     for(int i=0;i<5;i++)
     {
         int j=i;
-        for(j;j<size;j++)
+        int temp=i;
+        for(j;j<;j++)
         {
             if(arr[j]>arr[i])
              temp=j;

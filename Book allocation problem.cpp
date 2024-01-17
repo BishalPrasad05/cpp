@@ -85,7 +85,14 @@ int main(){
                 sum=arr[i];
             }
         }
-        if(cou)
+        if(count<=2)
+        {
+            ans=mid;
+            end=mid-1;
+        }
+        else{
+            start=mid+1;
+        }
     }
     cout<<"The answer is "<<ans<<endl;
     return 0;

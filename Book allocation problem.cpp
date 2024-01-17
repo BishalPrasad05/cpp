@@ -38,6 +38,21 @@
 
 using namespace std;
 
+
+bool isFeasible(int arr[],int mid)
+{
+    int count=0;
+    int sum=0;
+    for(int i=0;i<4;i++)
+    {
+        sum+=arr[i];
+        if(sum>)
+
+    }
+}
+
+
+
 int main(){
     int start=90,end=203;
     int arr[4]={12,34,67,90};
@@ -53,6 +68,6 @@ int main(){
             start=mid+1;
         }
     }
-    cout<<"The answer is "
+    cout<<"The answer is "<<ans<<endl;
     return 0;
 }

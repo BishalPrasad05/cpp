@@ -66,15 +66,26 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        int value=isFeasible(arr,mid);
-        cout<<"The value is :"<<value<<endl;
-        if(isFeasible(arr,mid)){
-            ans=mid;
-            end=mid-1;
+        // int value=isFeasible(arr,mid);
+        // cout<<"The value is :"<<value<<endl;
+        // if(isFeasible(arr,mid)){
+        //     ans=mid;
+        //     end=mid-1;
+        // }
+        // else{
+        //     start=mid+1;
+        // }
+        int count=1;
+        int sum=0;
+        for(int i=0;i<4;i++){
+            sum+=arr[i];
+            if(sum>mid)
+            {
+                count++;
+                sum=arr[i];
+            }
         }
-        else{
-            start=mid+1;
-        }
+        if(cou)
     }
     cout<<"The answer is "<<ans<<endl;
     return 0;

@@ -34,7 +34,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
 
     }
 
-    int res=k<=student;
+    int res=k<=student?1:0;
 
     cout<<"res = "<<res<<endl;
 

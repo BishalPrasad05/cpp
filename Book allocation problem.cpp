@@ -66,7 +66,8 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        if(isFeasible){
+        
+        if(isFeasible(arr,mid)){
             ans=mid;
             end=mid-1;
         }

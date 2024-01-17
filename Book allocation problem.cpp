@@ -23,7 +23,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
     for(int i=0 ;i<size;i++)
     {
         // ans+=arr[i];
-        if(ans>mid)
+        if(ans+arr[i]>mid)
         {
             ans=arr[i];
             k++;
@@ -36,7 +36,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
 
     int res=k<=student;
 
-    // cout<<"res = "<<res<<endl;
+    cout<<"res = "<<res<<endl;
 
     return res;
 

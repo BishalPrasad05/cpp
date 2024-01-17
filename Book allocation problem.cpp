@@ -45,7 +45,7 @@ bool isFeasible(int arr[],int start,int end,int student,int mid)
 
 int main(){
     int arr[]={10,10,20,30};
-    int minMaxArr[2]={0};
+    int minMaxArr[2]={0,0};
     minMax(arr,minMaxArr);
     int start=minMaxArr[0],end=minMaxArr[1];
     cout<<start<<" "<<end<<endl;

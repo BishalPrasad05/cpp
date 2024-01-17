@@ -22,12 +22,13 @@ int main(){
     minMax(arr,minMaxArr);
     int start=minMaxArr[0],end=minMaxArr[1];
     int ans=0;
+    int student=
     while(start<end)
     {
         int mid=(start+end)/2;
         for(int i=0;i<4;i++)
         {
-            
+
         }
     }
     

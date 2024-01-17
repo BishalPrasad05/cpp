@@ -51,7 +51,7 @@ int main(){
     cout<<start<<" "<<end<<endl;
     int ans=0;
     int student=2;
-    while(start<end)
+    while(start<=end)
     {
         // int k=1;
         int mid=(start+end)/2;

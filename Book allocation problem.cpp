@@ -28,5 +28,6 @@ int main(){
             start=mid+1;
         }
     }
+    cout<<"The answer is :"<<ans<<endl;
     return 0;
 }

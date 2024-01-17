@@ -25,10 +25,11 @@ int main(){
     int student=2;
     while(start<end)
     {
-        int k=0;
+        int k=1;
         int mid=(start+end)/2;
         for(int i=0;i<4;i++)
         {
+            ans+=arr[i];
             
 
         }

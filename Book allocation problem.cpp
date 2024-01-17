@@ -44,7 +44,7 @@ void minMax(int arr[],int minMaxArr[]){
 // }
 
 
-bool isPossible(int arr[], int n, int m, int curr_min)
+bool isPossible(int arr[],int m, int curr_min)
 {
 	int studentsRequired = 1;
 	int curr_sum = 0;

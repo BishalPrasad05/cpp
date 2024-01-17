@@ -21,11 +21,11 @@ int main(){
     int arr[5]={5,4,3,2,1};
     selectionSort(arr,5);
     cout<<"The sorted array"<<endl;
-    for(int i=0;i<5;i++)
+    for(int i=0;i<5-1;i++)
     {
         int j=i;
         int temp=i;
-        for(j;j<;j++)
+        for(j;j<5;j++)
         {
             if(arr[j]>arr[i])
              temp=j;

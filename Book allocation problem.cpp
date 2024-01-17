@@ -23,7 +23,8 @@ int main(){
     int start=minMaxArr[0],end=minMaxArr[1];
     while(start<end)
     {
-        int mid=
+        int mid=(start+end)/2;
+        for(int i=0;i<)
     }
     
     

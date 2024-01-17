@@ -41,7 +41,7 @@ using namespace std;
 
 bool isFeasible(int arr[],int mid)
 {
-    int count=0;
+    int count=1;
     int sum=0;
     for(int i=0;i<4;i++)
     {

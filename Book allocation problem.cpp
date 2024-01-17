@@ -31,6 +31,7 @@ int isFeasible(int arr[],int student,int mid)
         // else{
         //     ans+=arr[i];
         // }
+        cout<<"k= "<<k<<endl;
 
     }
 

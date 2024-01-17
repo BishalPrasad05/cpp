@@ -52,7 +52,7 @@ bool isFeasible(int arr[],int mid)
         }
 
     }
-    if(sum<=2)
+    if(count<=2)
         return true;
     return false;
 }
@@ -66,19 +66,7 @@ int main(){
     while(start<=end)
     {
         int mid=(start+end)/2;
-        int count=0;
-    int sum=0;
-    for(int i=0;i<4;i++)
-    {
-        sum+=arr[i];
-        if(sum>mid){
-            count++;
-            sum=arr[i];
-        }
-
-    }
-    if(sum<=2)
-        {
+        if(isFeasible){
             ans=mid;
             end=mid-1;
         }

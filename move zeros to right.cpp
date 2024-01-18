@@ -11,8 +11,12 @@ int main(){
         start++;
         if(arr[end]==0)
          end--;
-        if(arr[start])
+        if(arr[start]==0 && arr[end]!=0)
+            swap(arr[start],arr[end]);
 
     }
+    for(int var:arr)
+    cout<<var<<" ";
+    cout<<endl;
     return 0;
 }

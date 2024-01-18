@@ -2,12 +2,8 @@
 
 using namespace std;
 
-void bubbleSort(int arr[])
-
-
-int main(){
-    int arr[8]={5,4,4,67,98,90,435,2};
-    cout<<"size ="<<(sizeof(arr)/sizeof(arr[0]))<<endl;
+void bubbleSort(int arr[]){
+    int size=sizeof(arr)/sizeof(arr[0]);
     for(int i=0 ;i<8;i++)
     {
         for(int j=0;j<7-i;j++)
@@ -20,6 +16,12 @@ int main(){
         cout<<var<<" ";
         cout<<endl;
     }
+}
+
+
+int main(){
+    int arr[8]={5,4,4,67,98,90,435,2};
+    
     cout<<"\nfinal answer =";
     for(int var:arr)
         cout<<var<<" ";

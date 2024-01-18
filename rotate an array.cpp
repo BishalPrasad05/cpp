@@ -19,7 +19,7 @@ int main(){
     vector<int> arr2(arr.size());
     for(int i=0;i<arr.size();i++)
     {
-        arr2[(i+k)%arr.size()]=arr[i];
+        arr2[(i+2)%arr.size()]=arr[i];
     }
     arr=arr2;
     for(int var: arr)

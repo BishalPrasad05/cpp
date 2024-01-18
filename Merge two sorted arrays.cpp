@@ -8,6 +8,10 @@ int main(){
     int arr2[3]={2,4,6};
     int arr3[8];
     int pointer1=0,pointer2=0;
-    while(pointer1<5 )    
+    int i=0;
+    while(pointer1<5 && pointer2<3)
+    {
+        if(arr1[pointer1]>)
+    }    
     return 0;
 }

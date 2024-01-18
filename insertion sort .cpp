@@ -15,11 +15,12 @@ int main(){
             }
         }
         
-        cout<<"round "<<i+1<<" = ";
+        cout<<"round "<<i<<" = ";
         for(int var:arr)
         cout<<var<<" ";
         cout<<endl;
     }
+    cout<<"The sorted array is : ";
     for(int var:arr)
         cout<<var<<" ";
     cout<<endl;

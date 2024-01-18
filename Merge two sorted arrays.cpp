@@ -11,7 +11,8 @@ int main(){
     int i=0;
     while(pointer1<5 && pointer2<3)
     {
-        if(arr1[pointer1]>)
+        if(arr1[pointer1]<arr2[pointer2])
+            
     }    
     return 0;
 }

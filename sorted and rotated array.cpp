@@ -14,7 +14,7 @@ int main(){
         if(nums[nums.size()-1] > nums[0])
             cnt++;
         
-        cout<<"The value of count ="<<(cnt<=1)<<endl;
+        cout<<"The value of count ="<<(cnt)<<endl;
     
     return 0;
 }

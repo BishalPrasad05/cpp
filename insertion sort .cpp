@@ -13,6 +13,10 @@ int main(){
                 temp=j;
         }
         swap(arr[temp],arr[i]);
+        cout<<"round "<<i+1<<" = ";
+        for(int var:arr)
+        cout<<var<<" ";
+        cout<<endl;
     }
     for(int var:arr)
         cout<<var<<" ";

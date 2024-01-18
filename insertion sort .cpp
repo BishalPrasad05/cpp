@@ -16,6 +16,7 @@ int main(){
                 // or arr[j+1]=arr[j];
             }
         }
+        swap(arr[])
         
         cout<<"round "<<i<<" = ";
         for(int var:arr)

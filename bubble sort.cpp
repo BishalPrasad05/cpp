@@ -11,7 +11,12 @@ int main(){
             if(arr[j]>arr[j+1])
                 swap(arr[j],arr[j+1]);
         }
+        cout<<"round "<<i<<" = ";
+        for(int var:arr)
+        cout<<var<<" ";
+        cout<<endl;
     }
+    cout<<"final answer =";
     for(int var:arr)
         cout<<var<<" ";
     cout<<endl;

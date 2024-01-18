@@ -24,7 +24,7 @@ int main(){
     }   
     while(pointer1<5)
     {
-        arr3[i]=arr2[pointer1];
+        arr3[i]=arr1[pointer1];
         pointer1++;
         i++;
     } 

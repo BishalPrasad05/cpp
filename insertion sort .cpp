@@ -7,11 +7,13 @@ int main(){
     for(int i=1;i<4;i++)
     {
         int temp=i;
+        // or temp=arr[i];
         for(int j=i;j>=0;j--)
         {
             if(arr[j]>arr[temp]){
                 swap(arr[j],arr[temp]);
                 temp--;
+                // or arr[j+1]=arr[j];
             }
         }
         

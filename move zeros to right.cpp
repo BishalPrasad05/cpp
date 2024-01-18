@@ -7,10 +7,12 @@ int main(){
     int start=0,end=7;
     while(start<end)
     {
-        if(arr[start]==0)
-        {
-            
-        }
+        if(arr[start]!=0)
+        start++;
+        if(arr[end]==0)
+         end--;
+        if(arr[start])
+
     }
     return 0;
 }

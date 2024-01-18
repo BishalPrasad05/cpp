@@ -21,7 +21,7 @@ void bubbleSort(int arr[]){
 
 int main(){
     int arr[8]={5,4,4,67,98,90,435,2};
-    
+    bubbleSort(arr);
     cout<<"\nfinal answer =";
     for(int var:arr)
         cout<<var<<" ";

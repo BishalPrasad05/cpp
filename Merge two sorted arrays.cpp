@@ -16,6 +16,14 @@ int main(){
             arr3[i]=arr1[pointer1];
             pointer1++;
         }
+        else{
+            arr3[i]=arr2[pointer2];
+            pointer2++;
+        }
+        i++;
     }    
+    for(int var:arr3)
+        cout<<var<<" ";
+    cout<<endl;
     return 0;
 }

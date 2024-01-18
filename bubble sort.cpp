@@ -13,10 +13,10 @@ int main(){
             if(arr[j]>arr[j+1])
                 swap(arr[j],arr[j+1]);
         }
-        cout<<"round "<<i+1<<" = ";
-        for(int var:arr)
-        cout<<var<<" ";
-        cout<<endl;
+        // cout<<"round "<<i+1<<" = ";
+        // for(int var:arr)
+        // cout<<var<<" ";
+        // cout<<endl;
     }
     cout<<"\nfinal answer =";
     for(int var:arr)

@@ -15,7 +15,13 @@ void reverseArrayByKth(vector<int> arr,int k)
 
 int main(){
     vector<int> arr={1,2,3,4,5};
-    reverseArrayByKth(arr,2);
+    // reverseArrayByKth(arr,2);
+    vector<int> arr2(arr.size());
+    for(int i=0;i<arr.size();i++)
+    {
+        arr2[(i+k)%arr.size()]=arr[i];
+    }
+    arr=arr2;
     for(int var: arr)
     {
         cout<<var<<" ";

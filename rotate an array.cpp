@@ -2,7 +2,12 @@
 
 using namespace std;
 
+void reverseArrayByKth(int arr[],int k)
+{
+    vector<int> arr
+}
+
 int main(){
-    cout<<(4%8)<<endl;
+
     return 0;
 }

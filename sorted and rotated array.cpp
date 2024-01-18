@@ -1,14 +1,20 @@
 #include <iostream>
+#include<vector>
 
 using namespace std;
 
 int main(){
-    int arr[7]={4,5,6,1,2,3,4};
-    int count=0;
-    for(int i=1;i<7;i++)
-    {
-        if(arr[i-1]>arr[i])
-                       
+    vector<int> arr={4,5,6,1,2,3,4};
+     int cnt = 0;
+        for(int i=1;i<nums.size();i++) 
+        {
+            if(nums[i] < nums[i-1])
+                cnt++;
+        }
+        if(nums[nums.size()-1] > nums[0])
+            cnt++;
+        
+        cout<<"The value of count ="<<(cnt<=1)<<endl;
     }
     return 0;
 }

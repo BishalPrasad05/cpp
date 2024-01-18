@@ -10,9 +10,9 @@ int main(){
         for(int j=i;j>=0;j--)
         {
             if(arr[j]>arr[i])
-                temp=j;
+                swap(arr[j],arr[i]);
         }
-        swap(arr[temp],arr[i]);
+        
         cout<<"round "<<i+1<<" = ";
         for(int var:arr)
         cout<<var<<" ";

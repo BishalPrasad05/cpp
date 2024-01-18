@@ -7,7 +7,7 @@ int main(){
     for(int i=1;i<8;i++)
     {
         int temp=i;
-        for(int j=i;j>0;j--)
+        for(int j=i;j>=0;j--)
         {
             if(arr[j]>arr[i])
                 temp=j;

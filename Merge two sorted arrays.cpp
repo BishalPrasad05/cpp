@@ -24,7 +24,15 @@ int main(){
     }   
     while(pointer1<5)
     {
-        arr3[i]=arr[]
+        arr3[i]=arr2[pointer1];
+        pointer1++;
+        i++;
+    } 
+    while(pointer2<3)
+    {
+        arr3[i]=arr2[pointer2];
+        pointer2++;
+        i++;
     } 
     for(int var:arr3)
         cout<<var<<" ";

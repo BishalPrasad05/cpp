@@ -8,8 +8,12 @@ int main(){
     {
         for(int j=0;j<7-i;j++)
         {
-            if(arr[j])
+            if(arr[j]>arr[j+1])
+                swap(arr[j],arr[j+1]);
         }
     }
+    for(int var:arr)
+        cout<<var<<" ";
+    cout<<endl;
     return 0;
 }

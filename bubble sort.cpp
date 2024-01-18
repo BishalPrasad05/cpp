@@ -11,10 +11,10 @@ void bubbleSort(int arr[]){
             if(arr[j]>arr[j+1])
                 swap(arr[j],arr[j+1]);
         }
-        cout<<"round "<<i<<" = ";
-        for(int var:arr)
-        cout<<var<<" ";
-        cout<<endl;
+        // cout<<"round "<<i<<" = ";
+        // for(int var:arr)
+        // cout<<var<<" ";
+        // cout<<endl;
     }
 }
 

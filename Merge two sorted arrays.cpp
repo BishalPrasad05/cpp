@@ -21,7 +21,11 @@ int main(){
             pointer2++;
         }
         i++;
-    }    
+    }   
+    while(pointer1<5)
+    {
+        arr3[i]=arr[]
+    } 
     for(int var:arr3)
         cout<<var<<" ";
     cout<<endl;

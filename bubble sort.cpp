@@ -3,7 +3,7 @@
 using namespace std;
 
 void bubbleSort(int arr[]){
-    int size=sizeof(arr)/sizeof(arr[0]);
+    // int size=sizeof(arr)/sizeof(arr[0]);
     for(int i=0 ;i<8;i++)
     {
         for(int j=0;j<7-i;j++)

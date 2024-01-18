@@ -3,6 +3,8 @@
 using namespace std;
 
 
+
+
 int main(){
     int arr[8]={5,4,4,67,98,90,435,2};
     cout<<"size ="<<(sizeof(arr)/sizeof(arr[0]))<<endl;

@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void reverseArrayByKth(int arr[],int k)
+void reverseArrayByKth(vector<int> arr[],int k)
 {
-    vector<int> arr
+    vector<int> arr2[arr.size()];
 }
 
 int main(){

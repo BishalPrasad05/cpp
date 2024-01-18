@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    int arr[8]={5,4,4,67,98,90,435,2};
-    for(int i=1;i<8;i++)
+    int arr[4]={5,8,2,6};
+    for(int i=1;i<4;i++)
     {
         int temp=i;
         for(int j=i;j>=0;j--)

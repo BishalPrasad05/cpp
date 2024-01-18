@@ -16,7 +16,7 @@ int main(){
         cout<<var<<" ";
         cout<<endl;
     }
-    cout<<"final answer =";
+    cout<<"\nfinal answer =";
     for(int var:arr)
         cout<<var<<" ";
     cout<<endl;

@@ -12,11 +12,11 @@ int main(){
         arr1[p1]=(arr1[p1]+arr2[p2]+rem)%10;
         rem=(carry+arr2[p2]+rem)/10;
 
-        
+        if(p2<0)
+            break;
         p1--;
         p2--;
-        if(p2<-1)
-            break;
+        
     }
     for(int var: arr1)
         cout<<var<<" ";

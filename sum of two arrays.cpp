@@ -12,7 +12,7 @@ int main(){
         carry=rem;
         arr1[p1]=(arr1[p1]+arr2[p2]+carry)%10;
         p1--;
-        if(p2<0)
+        if(p2>=0)
             p2--;
     }
     for(int var: arr1)

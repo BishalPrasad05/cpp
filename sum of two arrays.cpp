@@ -7,7 +7,7 @@ int main(){
     int arr2[2]={1,1};
     int p1=3,p2=1,rem=0,carry=0;
     for(int i=0;i<4;i++){
-        rem=(arr1[p1]+arr2[p2]+)/10;
+        rem=(arr1[p1]+arr2[p2]+rem)/10;
         arr1[p1]=(arr1[p1]+arr2[p2]+carry)%10;
 
     }

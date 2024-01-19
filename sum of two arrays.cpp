@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<2;i++){
         carry=arr1[p1];
         arr1[p1]=(arr1[p1]+arr2[p2]+rem)%10;
-        rem=(arr1[p1]+arr2[p2]+rem)/10;
+        rem=(carry+arr2[p2]+rem)/10;
 
         
         p1--;

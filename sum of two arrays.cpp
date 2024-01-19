@@ -13,7 +13,7 @@ int main(){
         arr1[p1]=(arr1[p1]+arr2[p2]+carry)%10;
         p1--;
         p2--;
-        if(p2<0)
+        if(p2<-1)
         break;
     }
     for(int var: arr1)

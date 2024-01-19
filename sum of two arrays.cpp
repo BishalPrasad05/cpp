@@ -7,7 +7,7 @@ int main(){
     int arr2[2]={8,0};
     int p1=3,p2=1,rem=0,carry=0,down=0;
     for(int i=0;i<3;i++){
-        cout<<rem<<endl;
+        // cout<<rem<<endl;
         if(p2>=0)
             down=arr2[p2];
         else

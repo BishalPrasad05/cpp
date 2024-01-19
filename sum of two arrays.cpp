@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int arr1[4]={1,5,3,4};
-    int arr2[2]={8,9};
+    int arr2[2]={8,0};
     int p1=3,p2=1,rem=0,carry=0,down=0;
     for(int i=0;i<3;i++){
         cout<<rem<<endl;

@@ -16,7 +16,7 @@ int main(){
         p1--;
         p2--;
         if(p2>0)
-            continuw
+            break;
         
     }
     for(int var: arr1)

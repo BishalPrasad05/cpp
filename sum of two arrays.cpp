@@ -12,7 +12,7 @@ int main(){
         arr1[p1]=(arr1[p1]+arr2[p2]+rem)%10;
         rem=(carry+arr2[p2]+rem)/10;
 
-        
+        cout<<rem<<endl;
         p1--;
         p2--;
         if(p2<0)

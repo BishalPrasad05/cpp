@@ -6,7 +6,7 @@ int main(){
     int arr1[4]={1,2,3,4};
     int arr2[2]={8,9};
     int p1=3,p2=1,rem=0,carry=0;
-    for(int i=0;i<3;i++){
+    for(int i=0;i<2;i++){
         cout<<rem<<endl;
         carry=arr1[p1];
         arr1[p1]=(arr1[p1]+arr2[p2]+rem)%10;

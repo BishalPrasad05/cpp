@@ -11,6 +11,8 @@ int main(){
     {
         if(str[s]!=str[e])
         pal=0;
+        s++;
+        e--;
     }
     pal?cout<<"Palindrome\n":cout<<"Not palindrome\n";
     return 0;

@@ -13,6 +13,7 @@ int main(){
         pal=0;
         s++;
         e--;
+        cout<<s<<" "<<e<<endl;
     }
     pal?cout<<"Palindrome\n":cout<<"Not palindrome\n";
     return 0;

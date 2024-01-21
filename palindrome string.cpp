@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    string str="MADAM";
+    char str[]="MADAM";
     cout<<str;
     while (s<e)
     {

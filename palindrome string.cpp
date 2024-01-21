@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-    char str[]="MADAM";
+    char str[]="";
     // cout<<str;
-    int s=0,e=5;
+    int s=0,e=2;
     int pal=1;
     while (s<e)
     {

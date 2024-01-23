@@ -4,17 +4,26 @@ using namespace std;
 
 char toLowercase(int ch)
 {
-    if(ch>'a' && ch<'z')
+    if(ch>='a' && ch<='z')
         return ch;
     else{
-        int res=ch='A'+'a';
+        int res=ch-'A'+'a';
         return res;
+    }
+}
+
+char toUppercase(int ch)
+{
+    if(ch<='A' && ch<='Z')
+    return ch;
+    else{
+        
     }
 }
 
 
 int main(){
-    cout<<"The output is :"<<toLowercase('B')<<endl;
+    cout<<"The output is :"<<toLowercase('z')<<endl;
     
     return 0;
 }

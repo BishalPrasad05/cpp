@@ -17,13 +17,15 @@ char toUppercase(int ch)
     if(ch<='A' && ch<='Z')
     return ch;
     else{
-        
+        int res=ch-'a'+'A';
+        return res;
     }
 }
 
 
 int main(){
-    cout<<"The output is :"<<toLowercase('z')<<endl;
+    cout<<"The output is :"<<toLowercase('D')<<endl;
+    cout<<"The output is :"<<toUppercase('z')<<endl;
     
     return 0;
 }

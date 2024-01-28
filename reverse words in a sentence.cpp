@@ -1,5 +1,5 @@
 #include <iostream>
-#include<String>
+// #include<String>
 
 using namespace std;
 
@@ -13,8 +13,8 @@ using namespace std;
 // }
 
 int main(){
-    String word="Hello how are you";
-    for(int i=0;i<word.len;i++)
+    string word="Hello how are you";
+    for(int i=0;i<word.length();i++)
     {
         cout<<i<<endl;
     }

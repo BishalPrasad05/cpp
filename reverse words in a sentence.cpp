@@ -18,5 +18,6 @@ int main(){
     {
         cout<<word[i]<<endl;
     }
+    cout<<word[0:5]<<endl;
     return 0;
 }

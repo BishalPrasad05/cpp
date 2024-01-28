@@ -21,7 +21,7 @@ int main(){
     for(int i=0;i<word.length();i++)
     {
         // cout<<typeid(word[i]).name()<<endl;
-        if(isspace(word.at(i)))
+        if(isspace(word.at(i)) || i==word.length-1)
         {
             e--;
             while(s<e)

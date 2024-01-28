@@ -23,7 +23,8 @@ int main(){
         // cout<<typeid(word[i]).name()<<endl;
         if(isspace(word.at(i)) || i==word.length()-1)
         {
-            // e--;
+            if()
+            e--;
             while(s<e)
             {
                 swap(word[s],word[e]);

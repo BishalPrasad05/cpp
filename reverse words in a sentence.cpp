@@ -30,8 +30,8 @@ int main(){
                 s++;
                 e--;
             }
-            s=i;
-            e=i;
+            s=i+1;
+            e=i+1;
         }
         else
          e++;

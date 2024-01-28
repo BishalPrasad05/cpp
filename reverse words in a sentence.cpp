@@ -14,7 +14,7 @@ using namespace std;
 // }
 
 int main(){
-    string word="Hello how are you";
+    string word="  Hello how are you";
     int s=0,e=0;
     char temp;
     int previous_space=0;
@@ -23,7 +23,7 @@ int main(){
         // cout<<typeid(word[i]).name()<<endl;
         if(isspace(word.at(i)) || i==word.length()-1)
         {
-            if()
+            if(i!=word.length()-1)
             e--;
             while(s<e)
             {

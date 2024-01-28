@@ -17,7 +17,8 @@ int main(){
     string word="Hello how are you";
     for(int i=0;i<word.length();i++)
     {
-        cout<<typeid(word[i]).name()<<endl;
+        // cout<<typeid(word[i]).name()<<endl;
+        
     }
     // cout<<word[0:5]<<endl;
     return 0;

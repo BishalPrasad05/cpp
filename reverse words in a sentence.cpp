@@ -16,13 +16,15 @@ using namespace std;
 int main(){
     string word="Hello how are you";
     int s=0,e=0;
+    char temp;
     int previous_space=0;
     for(int i=0;i<word.length();i++)
     {
         // cout<<typeid(word[i]).name()<<endl;
         if(isspace(word.at(i)))
         {
-            
+            temp=word[s];
+            word[s]=word
         }
     }
     // cout<<word[0:5]<<endl;

@@ -29,8 +29,10 @@ int main(){
                 s++;
                 e--;
             }
-            
+            s=i;
         }
+        else
+         e++;
     }
     // cout<<word[0:5]<<endl;
     return 0;

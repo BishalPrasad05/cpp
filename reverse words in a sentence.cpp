@@ -16,7 +16,7 @@ int main(){
     string word="Hello how are you";
     for(int i=0;i<word.length();i++)
     {
-        if(word[i]==" "){
+        if(word[i]==" k"){
             cout<<i<<endl;
         }
     }

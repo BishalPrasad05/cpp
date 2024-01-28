@@ -22,8 +22,7 @@ int main(){
         // cout<<typeid(word[i]).name()<<endl;
         if(isspace(word.at(i)))
         {
-
-
+            
         }
     }
     // cout<<word[0:5]<<endl;

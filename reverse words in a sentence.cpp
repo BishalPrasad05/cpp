@@ -2,7 +2,7 @@
 
 using namespace std;
 
-String reverseWord(int ,int start,int end)
+String reverseWord(String ,int start,int end)
 {
     while(start<end)
     {

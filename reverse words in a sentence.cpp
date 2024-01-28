@@ -34,6 +34,10 @@ int main(){
         else
          e++;
     }
+    for(int i=0;i<word.length();i++)
+    {
+        cout<<word[i];
+    }
     // cout<<word[0:5]<<endl;
     return 0;
 }

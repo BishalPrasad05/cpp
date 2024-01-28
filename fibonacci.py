@@ -9,7 +9,7 @@
 import os,time
 i=0
 while (True):
-    file=open(f"new.c","w")
+    file=open(f"subject.c","w")
     file.write(f"#include<stdio.h>\n")
     # time.sleep(2)
     file.write(f"#include<conio.h>\n")

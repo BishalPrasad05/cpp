@@ -1,6 +1,6 @@
 #include <iostream>
 // #include<String>
-#include<typeinfo>
+#include<cctype>
 
 using namespace std;
 
@@ -18,8 +18,8 @@ int main(){
     for(int i=0;i<word.length();i++)
     {
         // cout<<typeid(word[i]).name()<<endl;
-        if(word[0]=="")
-        cout<<endl;
+        if(isspace(word.at(i)))
+        cout<<i<<endl;
     }
     // cout<<word[0:5]<<endl;
     return 0;

@@ -14,7 +14,7 @@ using namespace std;
 // }
 
 int main(){
-    string word="  Hello how are you";
+    string word="Hello how are you";
     int s=0,e=0;
     char temp;
     int previous_space=0;
@@ -41,6 +41,6 @@ int main(){
     {
         cout<<word[i];
     }
-    // cout<<word[0:5]<<endl;
+    cout<<endl;
     return 0;
 }

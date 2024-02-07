@@ -9,16 +9,16 @@ int main(){
     for(int i=0;i<=n;i++)
     {
         cout<<"yes";
-        int count=0;
+        int count1=0;
         int j=i;
         while(j>0)
         {
             cout<<"no";
             if(j&1)
-            count++;
+            count1++;
             j=j>>1;
         }
-        bits[i]=count;
+        bits[i]=count1;
     }
     for(int i=0;i<n;i++)
     cout<<bits[i]<<endl;

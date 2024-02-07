@@ -9,11 +9,12 @@ int main(){
     for(int i=0;i<=n;i++)
     {
         int count=0;
-        while(i>0)
+        int j=i;
+        while(j>0)
         {
-            if(i&1)
+            if(j&1)
             count++;
-            i=i>>1;
+            j=j>>1;
         }
         bits[i]=count;
     }

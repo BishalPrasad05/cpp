@@ -8,10 +8,12 @@ int main(){
     vector<int> bits(n+1);
     for(int i=0;i<=n;i++)
     {
+        cout<<"yes";
         int count=0;
         int j=i;
         while(j>0)
         {
+            cout<<"no";
             if(j&1)
             count++;
             j=j>>1;

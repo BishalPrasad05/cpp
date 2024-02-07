@@ -15,6 +15,6 @@ int main(){
         for(int j=2*i;j<n;j+i)
         prime[j]=0;
     }
-    count<<"The "
+    cout<<"The no of prime numbers are :"<<count<<endl;
     return 0;
 }

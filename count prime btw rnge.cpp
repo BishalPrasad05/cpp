@@ -12,8 +12,9 @@ int main(){
     {
         if(prime[i])
         count++;
-        for(int j=2*i;j<n;j*i)
-        prime[]
+        for(int j=2*i;j<n;j+i)
+        prime[j]=0;
     }
+    count<<"The "
     return 0;
 }

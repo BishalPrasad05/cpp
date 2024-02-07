@@ -7,7 +7,7 @@ int main(){
     
     int count=0,n=5000000;
 
-    vector<int> prime(n-1,true);
+    vector<int> prime(n+1,true);
     prime[0]=prime[1]=0;
     for(int i=2;i<n;i++)
     {

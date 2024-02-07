@@ -12,7 +12,7 @@ int main(){
     {
         if(prime[i])
         count++;
-        for(int j=2*i;j<n;j++)
+        for(int j=2*i;j<n;j*i)
         prime[]
     }
     return 0;

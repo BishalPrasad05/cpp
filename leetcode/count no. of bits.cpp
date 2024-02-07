@@ -18,7 +18,7 @@ int main(){
         }
         bits[i]=count;
     }
-    for(int i: bits)
-    cout<<i<<endl;
+    for(int i=0;i<n;i++)
+    cout<<bits[i]<<endl;
     return 0;
 }

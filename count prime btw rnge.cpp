@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     
-    int count=0,n=10;
+    int count=0,n=5000000;
 
     vector<int> prime(n-1,true);
     prime[0]=prime[1]=0;

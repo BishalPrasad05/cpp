@@ -1,4 +1,5 @@
 #include <iostream>
+#include<vector>
 
 using namespace std;
 
@@ -15,7 +16,7 @@ int main(){
         for(int j=2*i;j<n;j=j+i)
         prime[j]=0;
     }
-    // cout<<"The no of prime numbers are :"<<count<<endl;
+    cout<<"The no of prime numbers are :"<<count<<endl;
     
     return 0;
 }

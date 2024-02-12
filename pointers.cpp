@@ -8,6 +8,6 @@ int main(){
     cout<<"The address of num :"<<&num<<endl;
     int *p=0;
     p=&num;
-    cout<<"The pointer value of p :"<<p+1<<endl;
+    cout<<"The pointer value of p :"<<*(p+1)<<endl;
     return 0;
 }

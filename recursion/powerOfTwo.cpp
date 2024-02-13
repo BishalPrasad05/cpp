@@ -6,7 +6,7 @@ int powerOfTwo(int i,int num)
 {
     if(i==0)
     return num;
-    num=
+    return 2*powerOfTwo()
 }
 
 

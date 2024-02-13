@@ -2,9 +2,11 @@
 
 using namespace std;
 
-int powerOfTwo(int i)
+int powerOfTwo(int i,int num)
 {
-    if(i)
+    if(i==0)
+    return num;
+    return 2
 }
 
 

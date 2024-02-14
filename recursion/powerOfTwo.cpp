@@ -13,7 +13,7 @@ int powerOfTwo(int i,int num)
 
 int main(){
 
-    cout<<"The power of 2 :"<<powerOfTwo(3,1)<<endl;
+    cout<<"The power of 2 :"<<powerOfTwo(5,1)<<endl;
     
     return 0;
 }

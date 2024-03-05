@@ -21,7 +21,7 @@ void MSort(int arr[], int start, int end)
     if (start >= end)
         return;
     int mid = (start + end) / 2;
-    cout << arr[start] << arr[end] << endl;
+    cout << arr[start] << " " << arr[end] << endl;
     MSort(arr, start, mid);
     MSort(arr, mid + 1, end);
     // Merge(arr, start, end);
@@ -30,7 +30,7 @@ void MSort(int arr[], int start, int end)
 int main()
 {
     int arr[5] = {5, 4, 3, 2, 1};
-    MSort(arr, 0, 5);
+    MSort(arr, 0, 4);
 
     return 0;
 }

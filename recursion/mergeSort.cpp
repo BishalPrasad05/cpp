@@ -14,6 +14,8 @@ void mergeSort(int *arr, int s, int e)
 
     int mid = (s + e) / 2;
     cout << mid << endl;
+    if (mid == 0)
+        return;
     mergeSort(arr, s, mid);
     mergeSort(arr, mid + 1, e);
 }

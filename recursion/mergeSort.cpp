@@ -6,6 +6,11 @@ int arr2[5];
 
 void Merge(int arr[], int s, int e)
 {
+    if (s == e)
+    {
+        cout << arr[s] << endl;
+        return;
+    }
     for (int i = s; i <= e; i++)
         cout << arr[i] << " ";
     cout << endl;

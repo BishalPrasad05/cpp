@@ -12,7 +12,7 @@ void mergeSort(int arr[], int s, int e)
     //     cout << arr[i] << " ";
     // cout << endl;
     cout << arr[s] << endl;
-    int mid = (s + e) / 2;
+    int mid = (s + e)/2;
     mergeSort(arr, s, mid);
     mergeSort(arr, mid + 1, e);
 }

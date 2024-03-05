@@ -8,8 +8,8 @@ void mergeSort(int arr[], int s, int e)
     {
         return;
     }
-    for (int i = s; i < e; i++)
-        cout << arr[i] << " ";
+    // for (int i = s; i < e; i++)
+    //     cout << arr[i] << " ";
     cout << endl;
     int mid = (s + e) / 2;
     mergeSort(arr, s, mid);

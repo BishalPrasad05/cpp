@@ -6,7 +6,7 @@ int arr2[5];
 
 void Merge(int arr[], int start, int end)
 {
-    cout << arr[start] << " " << arr[end] << endl;
+    cout << start << " " << end << endl;
     // if (s == e)
     // {
     //     cout << arr[s] << endl;

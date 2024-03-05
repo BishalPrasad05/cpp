@@ -4,12 +4,12 @@ using namespace std;
 
 void MSort(int arr[], int start, int end)
 {
-    if (start > end)
+    if (start >= end)
         return;
     int mid = (start + end) / 2;
     cout << start << end << endl;
     MSort(arr, start, mid);
-    // MSort(arr, mid + 1, end);
+    MSort(arr, mid + 1, end);
 }
 
 int main()

@@ -7,7 +7,7 @@ void MSort(int arr[], int start, int end)
     if (start >= end)
         return;
     int mid = (start + end) / 2;
-    cout << start << end << endl;
+    cout << arr[start] << endl;
     MSort(arr, start, mid);
     MSort(arr, mid + 1, end);
 }

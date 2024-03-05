@@ -31,8 +31,8 @@ void MSort(int arr[], int start, int end)
 
 int main()
 {
-    int arr[5] = {5, 4, 3, 2, 1,0};
-    MSort(arr, 0, 4);
+    int arr[6] = {5, 4, 3, 2, 1, 0};
+    MSort(arr, 0, 5);
 
     return 0;
 }

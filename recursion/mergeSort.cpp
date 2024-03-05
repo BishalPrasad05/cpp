@@ -19,7 +19,7 @@ void mergeSort(int arr[], int s, int e)
 int main()
 {
     int arr[5] = {5, 4, 3, 2, 1};
-    mergeSort(arr, 0, 5);
+    mergeSort(arr, 0, 4);
 
     return 0;
 }

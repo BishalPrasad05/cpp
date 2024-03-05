@@ -2,14 +2,24 @@
 
 using namespace std;
 
+int arr2[5];
+
+void Merge(int arr[], int s, int e)
+{
+    for (int i = s; i <= e; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
 void MSort(int arr[], int start, int end)
 {
     if (start >= end)
         return;
     int mid = (start + end) / 2;
-    cout << arr[end] << endl;
+    // cout << arr[end] << endl;
     MSort(arr, start, mid);
     MSort(arr, mid + 1, end);
+    Merge(arr, start, end);
 }
 
 int main()

@@ -11,7 +11,7 @@ void mergeSort(int *arr, int s, int e)
     // for (int i = s; i < e; i++)
     //     cout << arr[i] << " ";
     // cout << endl;
-    cout << arr[s] << endl;
+    cout << arr[e] << endl;
     int mid = (s + e) / 2;
     mergeSort(arr, s, mid);
     mergeSort(arr, mid + 1, e);

@@ -8,7 +8,6 @@ void mergeSort(int arr[], int s, int e)
     {
         return;
     }
-    int size = sizeof(arr) / 4;
     for (int i = s; i < e; i++)
         cout << arr[i] << " ";
     cout << endl;

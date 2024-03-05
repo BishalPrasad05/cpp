@@ -18,10 +18,11 @@ void Merge(int arr[], int s, int e)
 
 void MSort(int arr[], int start, int end)
 {
+    cout << arr[start] << " " << arr[end] << endl;
     if (start >= end)
         return;
     int mid = (start + end) / 2;
-    cout << arr[start] << " " << arr[end] << endl;
+
     MSort(arr, start, mid);
     MSort(arr, mid + 1, end);
     // Merge(arr, start, end);

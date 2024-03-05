@@ -2,11 +2,19 @@
 
 using namespace std;
 
+void MSort(int arr[], int start, int end)
+{
+    if (start > end)
+        return;
+    int mid = (start + end) / 2;
+    // MSort(arr, start, mid);
+    // MSort(arr, mid + 1, end);
+}
 
 int main()
 {
     int arr[5] = {5, 4, 3, 2, 1};
-    mergeSort1(arr, 0, 4);
+    MSort(arr, 0, 4);
 
     return 0;
 }

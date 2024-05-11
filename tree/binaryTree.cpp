@@ -16,7 +16,6 @@ public:
     }
 };
 
-
 // 1 2 4 -1 -1 5 -1 -1 3 6 -1 -1 7 -1 -1
 
 node *binaryTree(node *root)
@@ -35,9 +34,9 @@ node *binaryTree(node *root)
     return root;
 }
 
-void print(node * root)
+void print(node *root)
 {
-    if(root==NULL)
+    if (root == NULL)
         return;
     cout << root->data << " ";
     print(root->left);
@@ -47,8 +46,8 @@ void print(node * root)
 int main()
 {
     node *root;
-    binaryTree(root);
-    print(root);
+    node *root1 = binaryTree(root);
+    print(root1);
 
     return 0;
 }

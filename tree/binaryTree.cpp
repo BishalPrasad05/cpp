@@ -49,9 +49,9 @@ int main()
     node *root1 = binaryTree(root);
     cout << endl
          << "The data of the BT :";
-    cout << endl;
 
     print(root1);
+    cout << endl;
 
     return 0;
 }

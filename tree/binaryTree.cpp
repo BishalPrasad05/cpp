@@ -42,19 +42,27 @@ void print(node *root)
     print(root->left);
     print(root->right);
 }
-#include<queue>
-void levelOrderTraversal(node* root)
+#include <queue>
+void levelOrderTraversal(node *root)
 {
     queue<node *> q;
     q.push(root);
     q.push(NULL);
-    while(!q.empty())
+    while (!q.empty())
     {
         node *temp = q.front();
         q.pop();
-        if(temp==NULL)
+        if (temp == NULL)
         {
-            
+            cout << endl;
+            if (!q.empty())
+                q.push(NULL);
+        }
+        else
+        {
+            cout << temp->data << " ";
+            q.push(temp->left);
+            q.push(temp->right);
         }
     }
 }
@@ -67,6 +75,7 @@ int main()
          << "The data of the BT :";
 
     print(root1);
+    levelOrderTraversal(root1);
     cout << endl;
 
     return 0;

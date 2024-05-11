@@ -16,7 +16,8 @@ public:
     }
 };
 
-// 1 2 4 5 3 6 7
+
+// 1 2 4 -1 -1 5 -1 -1 3 6 -1 -1 7 -1 -1
 
 node *binaryTree(node *root)
 {

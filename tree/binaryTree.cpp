@@ -2,11 +2,12 @@
 
 using namespace std;
 
-class node{
-    public:
-        int data;
-        node *left;
-        node *right;
+class node
+{
+public:
+    int data;
+    node *left;
+    node *right;
     node(int data)
     {
         this->data = data;
@@ -15,10 +16,9 @@ class node{
     }
 };
 
+// 1 2 4 5 3 6 7
 
-
-
-node* binaryTree(node* root)
+node *binaryTree(node *root)
 {
     cout << "Enter the data:";
     int data;
@@ -34,7 +34,10 @@ node* binaryTree(node* root)
     return root;
 }
 
-int main(){
-    
+int main()
+{
+    node *root;
+    binaryTree(root);
+
     return 0;
 }

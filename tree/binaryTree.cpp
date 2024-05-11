@@ -16,6 +16,8 @@ class node{
 };
 
 
+
+
 node* binaryTree(node* root)
 {
     cout << "Enter the data:";
@@ -27,7 +29,9 @@ node* binaryTree(node* root)
 
     cout << "Enter the left of " << data << " " << endl;
     binaryTree(root->left);
-    
+    cout << "Enter the right of " << data << " " << endl;
+    binaryTree(root->right);
+    return root;
 }
 
 int main(){

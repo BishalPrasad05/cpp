@@ -77,6 +77,7 @@ int main()
          << "The data of the BT :";
 
     print(root1);
+    cout << endl;
     levelOrderTraversal(root1);
     cout << endl;
 

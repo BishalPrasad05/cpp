@@ -42,10 +42,16 @@ void print(node *root)
     print(root->left);
     print(root->right);
 }
-
+#include<queue>
 void levelOrderTraversal(node* root)
 {
-    
+    queue<node *> q;
+    q.push(root);
+    q.push(NULL);
+    while(!q.empty())
+    {
+        
+    }
 }
 
 int main()

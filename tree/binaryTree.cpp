@@ -47,6 +47,10 @@ int main()
 {
     node *root;
     node *root1 = binaryTree(root);
+    cout << endl
+         << "The data of the BT :";
+    cout << endl;
+
     print(root1);
 
     return 0;

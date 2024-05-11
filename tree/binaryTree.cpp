@@ -28,9 +28,9 @@ node *binaryTree(node *root)
         return NULL;
 
     cout << "Enter the left of " << data << " " << endl;
-     binaryTree(root->left);
+    root->left = binaryTree(root->left);
     cout << "Enter the right of " << data << " " << endl;
-    binaryTree(root->right);
+    root->right = binaryTree(root->right);
     return root;
 }
 

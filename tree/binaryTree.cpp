@@ -35,10 +35,20 @@ node *binaryTree(node *root)
     return root;
 }
 
+void print(node * root)
+{
+    if(root==NULL)
+        return;
+    cout << root->data << " ";
+    print(root->left);
+    print(root->right);
+}
+
 int main()
 {
     node *root;
     binaryTree(root);
+    print(root);
 
     return 0;
 }
